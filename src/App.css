@@ -1,0 +1,224 @@
+#root{
+  width: 100vw;
+
+  background-color: rgb(217 217 217);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: rgb(4 86 71);
+  color: white;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  font-weight: 100;
+}
+
+.header h3 {
+  margin-left: 6rem;
+  font-weight: 400;
+}
+
+
+.main {
+  background-color: white;
+  width: 80vw;
+  border: 1px solid rgba(4, 86, 71, 0.29);
+}
+
+.PrimaryButton {
+  height: 3rem;
+  width: 9rem;
+  background-color: rgb(11 132 110);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.731);
+}
+
+.roundImage{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 15px solid rgb(11 132 110);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roundImage img{
+  margin-left: -50px;
+  width: 33rem;
+}
+
+.line {
+  height: 2px;
+  width: 15rem;
+  background-color: rgb(11 132 110);
+  border-radius: 10px;
+  margin: 2rem;
+}
+
+.PlantedPlantsButton {
+  background-color: #03382f;
+  color: white;
+  border-radius: 0;
+  margin: 1rem;
+}
+
+/* TIPS */
+
+.plantTipsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.plantTipsInfo {
+  width: 30rem;
+  margin-top: 2rem;
+}
+
+.plantTipsInfo h2{
+  font-size: xx-large;
+}
+
+.plantTipsInfo p{
+  font-size: larger;
+}
+
+.tipsButton {
+  display: flex;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+/* NEW PLANT*/
+
+.AddNewPlantSection h3 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.plannedPlantsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.plannedPlantsContainer h2{
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.plannedPlants {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 2rem;
+  width: 12rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+
+.newPlantInput {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* PLANT CARD */
+
+.OurPlannedPlants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurPlannedPlants h2{
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.plantCards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.singlePlantCard {
+  height: 24rem;
+  width: 18rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgba(87, 87, 87, 0.63);
+}
+
+.ourPlantImg {
+  width: 18rem;
+  height: 18rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.ourPlantImg img{
+  width: 28rem;
+}
+
+.ourPlantInfo {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.ourPlantInfo h3 {
+  margin-left: .5rem;
+  margin-bottom: 0;
+}
+
+.ourPlantInfo p {
+  margin-left: .5rem;
+  margin-top: 0;
+  font-size: medium;
+  opacity: 60%;
+}
+
+.ourPlantInfo h5 {
+  text-align: right;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.DeleteButton {
+  height: 25px;
+  font-size: small;
+  background-color: #b93857;
+  color: white;
+  text-align: center;
+  padding: 0 10px;
+  margin-right: 1rem;
+  margin-top: 0;
+}
